@@ -1,0 +1,38 @@
+# File: design3.txt
+# Author: SAAD KHAN
+# Date: 5/3/19
+# Section: 26
+# E-mail: MKHAN8@umbc.edu
+
+
+prettyPrintBoard() prints the board with row and column labels,
+                   and spaces the board out so that it looks square
+Input:             board;   the rectangular 2d gameboard to print
+Output:            None;    prints the board in a pretty way
+
+neighbornumber()   tells you the number of mines neighboring the tile
+input:		   board;    The gameboard
+output: 	   none:     spread the clues across the board
+
+flag()		   flags the tile the user selects
+input:		   board;    the gameboard
+		   tileSelect; the tile the user selected
+output: 	   None;     prints the board with flagged tile
+
+islandSpace()	   Fill out “islands” of empty space when an empty field is revealed
+input: 		   board;   the gameboard
+output:		   None;    prints the board with empty spaces
+
+revealMine()	   reveals if the tile had a mine
+input:		   board;    gameboard
+		   tileSelect; the tile the user had selected
+output:		   Mine;      a boolean thats true if the tile has mine
+
+checkIsland()	   checks if there is a space or empty field
+Input;		   board;    gameboard
+		   tileSelect; the tile the user had selected
+output:
+
+takeInput()	   prints out all the options to the user and takes input
+Input: 		   none
+output:		   users choices
