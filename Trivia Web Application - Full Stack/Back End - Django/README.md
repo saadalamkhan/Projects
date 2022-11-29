@@ -1,4 +1,4 @@
-# django_back
+# Back-End Django Framework
 pip install django
 pip install django-rest-framework
 pip install django-cors-headers
